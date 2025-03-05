@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="background">
 
 <head>
     <meta charset="UTF-8">
-    <title>Indira Sierra</title>
-    <meta charset="utf-8">
-    </meta>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi portfolio</title>
+</head>
 
 <body>
     <header>
-
-        <nav>
-            <ul>
-                <li class="nav-link"><a href="index.html">Home</a></li>
-                <li class="nav-link"><a href="projects.html">Projects</a></li>
-                <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <nav class="menunav">
+            <ul class="navlink">
+                <li class="menuelements"><a href="index.html">Home</a></li>
+                <li class="menuelements"><a href="projects.html">Projects</a></li>
+                <li class="menuelements"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
+        <hr class="linestyle">
     </header>
+
     <main>
         <section id="user-info">
-            <img src="https://thispersondoesnotexist.com/">
+            <picture>
+                <img src="https://thispersondoesnotexist.com/" alt="Imagen de Perfil" class="profilepic">
+            </picture>
+
+
             <h1 class="porfile-title"><strong>Romualdo Garcia</strong></h1>
-            <div id="contenedor">
-                <div>
-                    <p class="profile-description">CLorem fistrum apetecan no te digo trigo por no llamarte Rodrigor
+
+            <div id="contenedor" class="textformat">
+                <article>
+                    <p class="colortext">CLorem fistrum apetecan no te digo trigo por no llamarte Rodrigor
                         quietooor
                         quietooor. Diodenoo va usté muy cargadoo ese pedazo de de la pradera. No te digo trigo por no
                         llamarte
@@ -46,9 +52,9 @@
                         cargadoo torpedo diodeno. Diodenoo a gramenawer te va a hasé pupitaa caballo blanco caballo
                         negroorl
                         mamaar la caidita ese hombree está la cosa muy malar quietooor quietooor.</p>
-                </div>
-                <div>
-                    <p class="profile-description">La caidita ese pedazo de se calle ustée me cago en tus muelas ese
+                </article>
+                <article>
+                    <p class="colortext">La caidita ese pedazo de se calle ustée me cago en tus muelas ese
                         hombree. Quietooor está la cosa muy
                         malar amatomaa caballo blanco caballo negroorl a gramenawer la caidita. Pupita qué dise usteer
                         está la
@@ -60,13 +66,20 @@
                         de mi
                         madre diodeno tiene musho peligro qué dise usteer sexuarl. Al ataquerl pupita apetecan a peich
                         ahorarr
-                        pecador.
-                </div>
+                        pecador.</p>
+                </article>
             </div>
-            <p>.<br>
 
         </section>
+        <section>
+            <audio controls>
+                <source src="musica.mp3" type="audio/mpeg">
+                <source src="musica.ogg" type="audio/ogg">
+                Tu navegador no soporta el elemento audio.
+            </audio>
+        </section>
     </main>
+
     <footer>
         <ul class="contact-list">
             <li class="contact-link">
