@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <section class="header-conatiner">
+            <section class="header-container">
                 <ul id="header-right">
                     <li class="menuelements"><a href="index.html">Home</a></li>
                     <li class="menuelements"><a href="projects.html">Projects</a></li>
@@ -26,51 +26,77 @@
     </header>
 
     <main>
-        <section>
+        <section id="contact-section">
+            <h1>Contáctanos</h1>
             <form action="" id="contact-form">
-                <legend><h1>Contáctanos</h1></legend>
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="special characteres not allowed" required>
+                <input type="text" name="name" id="name" placeholder="special characters not allowed" required>
+
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" placeholder="special characteres not allowed" required>
+                <input type="text" name="last-name" id="last-name" placeholder="special characters not allowed"
+                    required>
+
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age">
+
                 <label for="phone">Phone</label>
                 <input type="tel" maxlength="9" placeholder="Phone number without spaces" required>
+
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="example@example.com" required>
-                <label for="topic">Topic</label>
-                <select name="topic" id="topic">
-                    <option value="op1">Option 1</option>
-                    <option value="op2">Option 2</option>
-                    <option value="op3">Option 3</option>
-                </select>
-                <label for="language">Language</label>
+
+                <label for="language">Language</label required>
                 <select name="language" id="language">
                     <option value="es">Castellano</option>
                     <option value="en">English</option>
                 </select>
+
+                <label for="topic">Topic</label>
+                <select name="topic" id="topic">
+                    <option value="op1">Comunicación</option>
+                    <option value="op2">Queja</option>
+                    <option value="op3">Sugerencia</option>
+                </select>
+
+                <label for="Text">Text</label>
+                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+
+                <div class="newsletter-input">
+                    <label for="subscribe">¿Quieres suscribirte a mi newsletter?</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+
                 <label for="mood">Mood</label>
-                <input type="range" name="range" id="range">
+                <div class="mood-range-container">
+                    <input type="range" name="range" id="range" min="0" max="2" step="1" style="width: 100%;">
+                    <div class="mood-labels">
+                        <span id="sad" class="mood-label">😞</span>
+                        <span id="indifferent" class="mood-label">😐</span>
+                        <span id="happy" class="mood-label">😊</span>
+                    </div>
+                </div>
+                <div><button type="submit" class="submit-btn">Enviar</button></div>
             </form>
+
             <div>
-                <p class="colortext">Es muy problable que el formulario no funcione, no sufra, haga click en el botón =)</p>
+                <p class="colortext">¿No funciona? no sufra, haga click en el siguiente botón
+                </p>
                 <button>Google Form</button>
             </div>
         </section>
     </main>
-    
 
     <footer>
-        <ul class="contact-list">
-            <li class="contact-link">
+        <p>Porfolio Prueba BBk BOOTCAMP FSFT 2025 &copy;</p>
+        <ul class="footer-list">
+            <li class="footer-link">
                 <a href="https://linkedin.com">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </li>
-            <li class="contact-link">
-                <a href="https://github.com">
-                    <i class="fa-brands fa-github"></i>
+            <li class="footer-link">
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-square-instagram"></i>
                 </a>
             </li>
         </ul>
