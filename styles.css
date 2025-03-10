@@ -214,6 +214,18 @@ main {
     }
 }
 
+.audio {
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(45deg, #940469, #c56321);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s infinite alternate;
+}
+
 /*CONTACT FORM*/
 #contact-section {
     padding: 2rem;
