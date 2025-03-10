@@ -385,6 +385,7 @@ label {
 /*PROJECTS*/
 .project-image {
     width: 2px;
+    height: 2px;
     position: relative;
     animation: move 3s infinite;
     opacity: 3s;
